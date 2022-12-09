@@ -81,6 +81,7 @@ Created a scatter plot visualization that shows the average price per square met
 
 ![scatter_social_support.png](./images/scatter_social_support.png)
 
+In addition to the scatter plot view above, in `rg_scatter.ipynb` I created additional functionality that allows a user to filter by either 1) 10 countries with the highest life expectancy or 2) 10 countries with the highest social support. This is accomplished by an input requested by the user and then utilizes branching logic to filter the data set.
 
 ## Setup/Installation Requirements
 
