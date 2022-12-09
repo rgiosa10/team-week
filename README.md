@@ -75,7 +75,11 @@ Ruben created a scatter plot visualization that shows the average price per squa
 
 Overall, the team was able to limit the amount of merge conflicts by working on independent notebooks and assigning different tasks (e.g. Each focused on different data sets, Ruben completed README, etc.). One challenge that we underwent was version control for the datasets that were transformed and then needed to be leveraged by the broader group. One key learning we had was going forward a good practice to help mitigate this is to spend time as a group validating the final data set, agree its ready to be leveraged, and then go on to begin our data visualizations and exploration. This would prevent having version control issues and digging through code to ensure its reading from proper csv files.
 
-Individual Work Outside the original scope of project by Ruben Giosa:
+## Individual Work Outside the original scope of project by Ruben Giosa:
+
+Created a scatter plot visualization that shows the average price per square meter against life expectancy and social support, for 10 countries with the highest life expectancy. Code for the visualization is located in `rg_scatter.ipynb`. Below is a snapshot of the visualization:
+
+![scatter_social_support.png](./images/scatter_social_support.png)
 
 
 ## Setup/Installation Requirements
