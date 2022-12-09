@@ -81,18 +81,20 @@ Created a scatter plot visualization that shows the average price per square met
 
 ![scatter_social_support.png](./images/scatter_social_support.png)
 
-In addition to the scatter plot view above, in `rg_scatter.ipynb` I created additional functionality that allows a user to filter by either 1) 10 countries with the highest life expectancy or 2) 10 countries with the highest social support. This is accomplished by an input requested by the user and then utilizes branching logic to filter the data set.
+In addition to the scatter plot view above, in `rg_dynamic_scatter.ipynb` I created additional functionality that allows a user to filter by either 1) 10 countries with the highest life expectancy or 2) 10 countries with the highest social support. This is accomplished by an input requested by the user and then utilizes branching logic to filter the data set.
+
+Finally, I cleaned, transformed and merged a new data set (`countries and continents.csv`) with the `cl_real_happiness.csv` which is consolidated in the newly created `data_with_continents.csv`. I then added functionality that allows a user to filter by continent to see 1) 10 countries with the highest life expectancy or 2) 10 countries with the highest social support by continent. This is located in the `rg_dynamic_scatter.ipynb`.
 
 ## Setup/Installation Requirements
 
-* Go to https://github.com/apsocarras/team-week.git to find the specific repository for this website.
+* Go to https://github.com/rgiosa10/team-week.git to find the specific repository for this website.
 * Then open your terminal. I recommend going to your Desktop directory:
     ```bash
     cd Desktop
     ```
 * Then clone the repository by inputting: 
   ```bash
-  git clone https://github.com/apsocarras/team-week.git
+  git clone https://github.com/rgiosa10/team-week.git
   ```
 * Go to the new directory or open the directory folder on your desktop:
   ```bash
